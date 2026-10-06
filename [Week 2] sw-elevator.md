@@ -10,18 +10,18 @@ overall very fun challenge !!
 
 ### [Level 0]
 The ```ls``` command: Lists all files
-```cat```: Reads file
-```cd```: Enter directory
+<br>```cat```: Reads file
+<br>```cd```: Enter directory
 
 Using these simple commands, I was able to read the hint, located in the README and get the credentials for the next level, located in the creds_level1.txt
 
 ### [Level 1]
-'''grep -r <string>''': search for string recursively through all directories
+```grep -r <string>```: search for string recursively through all directories
 
 Knowing the structure used for getting the username for the next level, I used the grep command with the recursive, -r, flag to look within all of the files for the string "level2."  That would give me the location/path of where the next creditials are located.
 
 ### [Level 2]
-```grep <string> <file>''': search for string within a file
+```grep <string> <file>```: search for string within a file
 
 Similar to the previous level, this command looked for the credentials with a specific string
 
@@ -41,7 +41,7 @@ The way i knew this had to be a chellenge >:3 a simple flag can reveal hidden fi
 But seriously (and in addition), spaces are considered special characters and need the backslash to properly register to the command line
 
 ### [Level 6]
-'''env''': Environment variable is a hidden folder that can contain information that runs in the background and sometimes sensitive credentials
+```env```: Environment variable is a hidden folder that can contain information that runs in the background and sometimes sensitive credentials
 
 Opening this file revealed a secret key.  Also in this level was an executable that seemed to be missing that password.  After running ./<executable> <super secret password>, I was able to run the password protected executable :)
 
@@ -62,7 +62,7 @@ In this scenario, there is a server already running, so all you needed to do is 
 Classic vim moment. (the classic "how to escape vim" hahaha)
 
 ### [Level 10]
-```strings''': print the sequences of printable characters in files (source: linux man page)
+```strings```: print the sequences of printable characters in files (source: linux man page)
 
 The hint said "STRINGS" in big bold capital letters...HMMM i wonder what that command must mean... -_- lowkey dont even know what the file originaly was. maybe it was a directory lol *speedrun noises*
 
