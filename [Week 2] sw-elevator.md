@@ -11,7 +11,7 @@ overall very fun challenge !!
 ### [Level 0]
 The ```ls``` command: Lists all files
 ```cat```: Reads file
-```cd``: Enter directory
+```cd```: Enter directory
 
 Using these simple commands, I was able to read the hint, located in the README and get the credentials for the next level, located in the creds_level1.txt
 
