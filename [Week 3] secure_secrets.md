@@ -3,7 +3,7 @@
 XOR, UTR8
 
 ### How i solved it
-1. Search > search for strings
+1. search for strings
 2. found conspicuous strings
 3. renamed my files 
 4. got a hint
