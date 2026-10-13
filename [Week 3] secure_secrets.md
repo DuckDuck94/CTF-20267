@@ -9,5 +9,6 @@ XOR, UTR8
 4. got a hint
 5. plugged by sus strings into cyberchef (*hints)
 6. panik
+$\infty$. omg my password was actually correct, BUT WAS ONE CHARACTER OFF??
 
-$\infty$ . omg my password was actually correct, BUT WAS ONE CHARACTER OFF??
+got beef w/encoding fr
