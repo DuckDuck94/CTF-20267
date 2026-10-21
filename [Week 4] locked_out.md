@@ -5,9 +5,11 @@ Solved based on vibes fr (oh. and cyberchef)!
 Reason I didn't do it fast enough: I didn't believe how simple it was :( i wasn't vibing hard enough and committed enough to the bit fr
 # Flag 2
 **Part 1: Getting the key**
+
 The key was encrypted with an MD5 hash. Looked up a random md5 decryption website > input encrypted hash from the output > get a pretty suspicious, plaintext lookin, ahhh key.  Take note of key and use for XOR.
 
 **Part 2: Actually getting the flag**
+
 Base64 > XOR > Base64 > XOR > Decimal > Hex > XOR > Base64 > Base 32
 
 Kinda similar based on vibes. used the same key for XOR. 
