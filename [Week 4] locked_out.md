@@ -36,4 +36,30 @@ Given
 
 my thought process was to use cyberchef and work forwards and backwards from the twist function, to get flag_3 on line 3.  For that function, my thought was to use xor the 2 outs to get flag 3, based on the cryptography xor method where m=k xor c can be equal to k=m xor c 
 
-\>:3 why yes i remembered what i learned in cryptography (yippee!!) the most basic of xor functions...the reversable xor !!! ┻━┻︵ \(°□°)/ ︵ ┻━┻
+i also wrote this down on paper initially so I could see where the main() function inputs were similar/changed in the actial twist() funciton.  then i crossed out and erased the original stuff with the flags I found.
+
+\>:3 why yes i remembered what i learned in cryptography (yippee!!) the most basic of xor functions...the reversable xor !!! 
+┻━┻︵ \(°□°)/ ︵ ┻━┻
+
+# Reflection
+ok...i said that i did the challenges based on vibes...which was kind of right... but! i should mention what vibes i was going off of! this was mentioned in the ctf slides, but i was mainly able to recognize the data types (most of the time.  I will include what the data types generally look like/the pattern recognition i used to keep adding on the tool i wanted to use.
+
+## Data Type Pattern Recognition:
+Base64: 
+- A-Za-z0-9+/=
+- meaning: all caps, all lowercase, all numbers (0-9), can include VARIOUS equation signs like "+/="
+Base32:
+- A-Z2-7=
+- meaning: only includes all capital letters, only includes numbers from 2 to 7, and the equal sign
+Hex:
+- contains 16 numbers: 0123456789abcdef
+- can usually be seen as a pair
+- highly recognizable if it is a number+letter pair
+Decimal:
+- 0123456789
+- highly recognizable as...normal ahh numbers
+XOR
+- usually need a key
+- cryptography-core
+- M(essage) = K(ey) xor C(ipher) <-> K = M xor C
+- ^ that was the simple xor logic i remembered from crypto 
