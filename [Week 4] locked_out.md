@@ -41,6 +41,7 @@ my thought process was to use cyberchef and work forwards and backwards from the
 i also wrote this down on paper initially so I could see where the main() function inputs were similar/changed in the actial twist() funciton.  then i crossed out and erased the original stuff with the flags I found.
 
 \>:3 why yes i remembered what i learned in cryptography (yippee!!) the most basic of xor functions...the reversable xor !!! 
+
 ┻━┻︵ \(°□°)/ ︵ ┻━┻
 
 # Reflection
