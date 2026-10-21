@@ -48,16 +48,20 @@ ok...i said that i did the challenges based on vibes...which was kind of right..
 Base64: 
 - A-Za-z0-9+/=
 - meaning: all caps, all lowercase, all numbers (0-9), can include VARIOUS equation signs like "+/="
+
 Base32:
 - A-Z2-7=
 - meaning: only includes all capital letters, only includes numbers from 2 to 7, and the equal sign
+
 Hex:
 - contains 16 numbers: 0123456789abcdef
 - can usually be seen as a pair
 - highly recognizable if it is a number+letter pair
+
 Decimal:
 - 0123456789
 - highly recognizable as...normal ahh numbers
+
 XOR
 - usually need a key
 - cryptography-core
