@@ -1,9 +1,11 @@
-# Flag 1
+# [Week 4] locked_out
+
+## Flag 1
 Base64 > Hex > Hex > Base64 > Hex > Base64 > Hex
 
 Solved based on vibes fr (oh. and cyberchef)!  
 Reason I didn't do it fast enough: I didn't believe how simple it was :( i wasn't vibing hard enough and committed enough to the bit fr
-# Flag 2
+## Flag 2
 **Part 1: Getting the key**
 
 The key was encrypted with an MD5 hash. Looked up a random md5 decryption website > input encrypted hash from the output > get a pretty suspicious, plaintext lookin, ahhh key.  Take note of key and use for XOR.
@@ -14,7 +16,7 @@ Base64 > XOR > Base64 > XOR > Decimal > Hex > XOR > Base64 > Base 32
 
 Kinda similar based on vibes. used the same key for XOR. 
 Reflection: Still took me a while to commit to the bit of "yea just keep adding to the cyberchef based on vibes fr" -\_\- cuh. razy.
-# Flag 3
+## Flag 3
 ```{crypto challenge}
 void twist(flag_1, flag_2, flag_3, key_1)
 {
@@ -44,10 +46,10 @@ i also wrote this down on paper initially so I could see where the main() functi
 
 ┻━┻︵ \(°□°)/ ︵ ┻━┻
 
-# Reflection
+## Reflection
 ok...i said that i did the challenges based on vibes...which was kind of right... but! i should mention what vibes i was going off of! this was mentioned in the ctf slides, but i was mainly able to recognize the data types (most of the time.  I will include what the data types generally look like/the pattern recognition i used to keep adding on the tool i wanted to use.
 
-## Data Type Pattern Recognition:
+### Data Type Pattern Recognition:
 Base64: 
 - A-Za-z0-9+/=
 - meaning: all caps, all lowercase, all numbers (0-9), can include VARIOUS equation signs like "+/="
