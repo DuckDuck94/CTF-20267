@@ -2,3 +2,6 @@
 
 **Given info from the slides:**
 int > hex > ascii > lilendien/reverse it
+
+Flag 1 BUffer overflow:
+CAKECAKECAKECAKECAKECAKECAKECAKE?
